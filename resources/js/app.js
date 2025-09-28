@@ -4,7 +4,7 @@ import './vendors/bootstrap.min.js';         // ۳. فریمورک
 import './vendors/imagesloaded.pkgd.min.js'; // ۴. ابزارهای کمکی
 import './vendors/jquery.sticky-kit.min.js'; // ۵. پلاگین‌ها
 import './vendors/smooth-scroll.min.js';     // ۶. پلاگین‌ها
-import './components/grid-blog.min.js';      // ۷. کامپوننت‌های سفارشی
+import './vendors/grid-blog.min.js';      // ۷. کامپوننت‌های سفارشی
 import './custom.js';                        // ۸. کدهای شما
 
 // 🎬 وقتی همه چیز آماده شد:
