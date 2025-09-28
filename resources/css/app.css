@@ -1,0 +1,22 @@
+/* resources/css/app.css */
+@import './fonts.css';
+@import './bootstrap.min.css';
+@import './style.css';
+@import './responsive.css';
+
+/* اضافه کردن !important برای اطمینان */
+body {
+    font-family: 'IRANSans', sans-serif !important;
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IRANSans', sans-serif !important;
+    font-weight: bold !important;
+}
+
+/* برای تمام متن‌ها */
+* {
+    font-family: 'IRANSans', sans-serif !important;
+}
