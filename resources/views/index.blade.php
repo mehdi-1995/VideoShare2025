@@ -16,9 +16,9 @@
         type="text/css" />
 
     <!--Google Fonts-->
-    <link
+    {{-- <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Raleway:400,500,700|Roboto:300,400,500,700,900|Ubuntu:300,300i,400,400i,500,500i,700"
-        rel="stylesheet">
+        rel="stylesheet"> --}}
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -37,7 +37,7 @@
                         <i class="fa fa-close"></i>
                     </a>
                     <div id="logo">
-                        <a href="01-home.html"><img src="img/logo.png" alt=""></a>
+                        <a href="01-home.html"><img src="{{ asset('img/logo.png') }}" alt=""></a>
                     </div>
                 </div><!-- // col-md-2 -->
                 <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs hidden-sm">

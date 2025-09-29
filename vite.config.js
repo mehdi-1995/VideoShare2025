@@ -11,6 +11,12 @@ export default defineConfig({
             refresh: true, // ⬅️ Hot Reload برای فایل‌های Blade
         }),
     ],
+    server: {
+        // برای سرو فونت‌ها در حالت dev
+        fs: {
+            allow: ['..'] // اجازه دسترسی به پوشه parent
+        }
+    },
     optimizeDeps: {
         include: ['jquery'] // ⬅️ بهینه‌سازی برای jQuery
     },
